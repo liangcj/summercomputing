@@ -1,6 +1,5 @@
 a <- rnorm(100)
 b <- rnorm(100)
 
-hist(a, col='blue')
-plot(a, b)
-
+plot(a, b, xlab="x-axis")
+abline(0, 1)
